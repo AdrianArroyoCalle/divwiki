@@ -21,6 +21,7 @@
 			</menu>
 			<menu label="Configuration">
 				<menupopup id="configuration">
+					<menuitem label="Extension manager" id="menu-extension"/>
 					<menuitem label="Advanced configuration" id="menu-configuration"/>
 				</menupopup>
 			</menu>
