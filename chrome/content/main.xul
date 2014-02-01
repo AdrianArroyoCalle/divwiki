@@ -1,9 +1,20 @@
 <?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://divwiki/locale/main.dtd">
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<window windowtype="divwiki" id="main" title="My App" width="300" height="300" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <caption label="Hello World"/>
-  <separator/>
-  <button label="More >>" oncommand="showMore();"/>
-  <separator/>
-  <description id="more-text" hidden="true">This is a simple XULRunner application. XUL is simple to use and quite powerful and can even be used on mobile devices.</description>
+<window windowtype="divwiki" orient="vertical" id="main" title="DivWiki" width="800" height="600" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+	<vbox id="main-box">
+		<image src="chrome://branding/content/icon64.png"/>
+		<hbox id="start-box" style="text-align: center;">
+			<button label="&StartExploring;" accesskey="s"/>
+			<button label="&PackAWiki;" accessky="p"/>
+		</hbox>
+		<separator/>
+		<hbox id="nav-box">
+			<button>Home</button>
+		</hbox>
+		<separator/>
+		<hbox id="wiki-navigator">
+			<browser type="content" src="chrome://divwiki/content/html/start.html" flex="1" id="wiki"/>
+		</hbox>
+	</vbox>
 </window>
