@@ -6,4 +6,10 @@
 	<description>
 	(C) 2014 Adrian Arroyo Calle. Licensed under GNU GPL v2
 	</description>
+	<groupbox flex="1">
+		<caption label="3rd party software included"/>
+		<description>
+			Showdown 0.31, licensed under BSD-style license
+		</description>
+	</groupbox>
 </dialog>

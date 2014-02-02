@@ -52,7 +52,7 @@
 		</hbox>
 		<separator/>
 		<hbox id="wiki-navigator">
-			<browser type="content" src="chrome://divwiki/content/html/start.html" flex="1" width="500" height="300" id="wiki"/>
+			<browser type="chrome" src="chrome://divwiki/content/html/start.html" flex="1" width="500" height="300" id="wiki"/>
 		</hbox>
 	</vbox>
 </window>
