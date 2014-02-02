@@ -19,8 +19,22 @@
     <em:name>Markdown</em:name>
     <em:description>Markdown wiki provider for DivWiki</em:description>
     <em:creator>Adrian Arroyo Calle</em:creator>
+	<em:developer>Adrian Arroyo Calle</em:developer>
+	<em:contributor>Adrian Arroyo Calle</em:contributor>
+	<em:translator>Adrian Arroyo Calle</em:translator>
     <em:homepageURL>http://github.com/AdrianArroyoCalle/divwiki</em:homepageURL>
-	<!-- <em:updateURL> Url_of_Update_Location </em:updateURL> -->
+	<em:updateURL>https://raw2.github.com/AdrianArroyoCalle/divwiki/master/extensions/markdown@divwiki/install.rdf</em:updateURL>
 	<em:aboutURL>chrome://markdown/content/about.xul</em:aboutURL>
+	<!-- <em:optionsURL></em:optionsURL> -->
+	<em:optionsType>2</em:optionsType>
+	<em:iconURL>chrome://markdown/content/48x30-solid.png</em:iconURL>
+	<em:icon64URL>chrome://markdown/content/66x40-solid.png</em:icon64URL>
+	<em:localized>
+		<Description>
+			<em:locale>es-ES</em:locale>
+			<em:name>Markdown</em:name>
+			<em:description>Proveedor de Wikis Markdown para DivWiki</em:description>
+		</Description>
+	</em:localized>
   </Description>
 </RDF>

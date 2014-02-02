@@ -4,29 +4,26 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-  <em:id>wikitheme@divwiki</em:id>
-  <em:version>0.1</em:version>
+    <em:id>wikitheme@divwiki</em:id>
+    <em:version>0.1</em:version>
 
-<em:targetApplication>
-    <Description>
-      <!-- Firefox's UUID -->
-      <em:id>divwiki@divwiki</em:id>
-      <em:minVersion>0.1</em:minVersion>
-      <em:maxVersion>2.0</em:maxVersion>
-    </Description>
-  </em:targetApplication>
+    <!-- DivWiki -->
+    <em:targetApplication>
+      <Description>
+        <em:id>divwiki@divwiki</em:id>
+        <em:minVersion>0.1</em:minVersion>
+        <em:maxVersion>2.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
 
-  <!-- Front End MetaData -->
-  <!-- My_Theme -->
-  <em:name>WikiTheme</em:name>
-  <em:description>The default skin for DivWiki</em:description>
-  <em:creator>Adrian Arroyo Calle</em:creator>
-  <em:homepageURL>http://github.com/AdrianArroyoCalle/divwiki</em:homepageURL>
-  <!-- <em:updateURL> Url_of_Update_Location </em:updateURL> -->
-  <!-- <em:aboutURL>chrome://wikitheme/content/about.xul</em:aboutURL> -->
+    <!-- Front End MetaData -->
+    <em:name>WikiTheme</em:name>
+    <em:description>Default skin/theme for DivWiki</em:description>
 
-  <!-- Front End Integration Hooks (used by Theme Manager)-->
+    <!-- Front End Integration Hooks (used by Theme Manager)-->
+    <em:creator>Adrian Arroyo Calle</em:creator>
+    <em:homepageURL>https://github.com/AdrianArroyoCalle/divwiki</em:homepageURL>
+
     <em:internalName>WikiTheme</em:internalName>
   </Description>
-
 </RDF>
