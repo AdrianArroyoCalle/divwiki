@@ -1,5 +1,5 @@
 pref("toolkit.defaultChromeURI","chrome://divwiki/content/main.xul");
-pref("toolkit.singletonWindowType","divwiki");
+pref("toolkit.singletonWindowType","divwiki:wiki");
 
 pref("browser.dom.window.dump.enabled", true);
 pref("javascript.options.showInConsole", true);
@@ -18,10 +18,11 @@ pref("extensions.dss.enabled", false);
 pref("extensions.dss.switchPending", false);
 pref("extensions.ignoreMTimeChanges", false);
 pref("extensions.logging.enabled", false);
-pref("general.skins.selectedSkin", "classic/1.0");
+pref("general.skins.selectedSkin", "WikiTheme/0.1");
 pref("extensions.update.url", "chrome://mozapps/locale/extensions/extensions.properties");
 pref("extensions.getMoreExtensionsURL", "chrome://mozapps/locale/extensions/extensions.properties");
 pref("extensions.getMoreThemesURL", "chrome://mozapps/locale/extensions/extensions.properties");
+pref("extensions.getAddons.search.url","http://github.com/AdrianArroyoCalle/divwiki/raw/master/extensions/search.xml");
 
 pref("wiki.extension-manager.uri","chrome://mozapps/content/extensions/extensions.xul");
 pref("wiki.js-console.uri","chrome://global/content/console.xul");
@@ -46,3 +47,17 @@ pref("alerts.height", 50);
 pref("signon.rememberSignons", true);
 pref("signon.expireMasterPassword", false);
 pref("signon.SignonFileName", "signons.txt");
+
+pref("app.update.enabled", true);
+pref("app.update.auto", true);
+pref("app.update.mode", 2);
+pref("app.update.silent", false);
+pref("app.update.url", "https://github.com/AdrianArroyoCalle/divwiki/raw/master/updates.xml");
+pref("app.update.url.manual", "http://github.com/AdrianArroyoCalle/divwiki/releases");
+pref("app.update.url.details", "http://github.com/AdrianArroyoCalle/divwiki");
+pref("app.update.interval", 86400);
+pref("app.update.nagTimer.download", 86400);
+pref("app.update.nagTimer.restart", 1800);
+pref("app.update.timer", 600000);
+pref("app.update.showInstalledUI", false);
+pref("app.update.incompatible.mode", 0);

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="1">
+	<addon id="1">
+		<name>Markdown</name>
+		<type id="1">Extensión</type>
+		<guid>markdown@divwiki</guid>
+		<slug>markdown</slug>
+		<version>0.2</version>
+		<status id="4">Revisado completamente</status>
+		<authors>
+			<author>Adrián Arroyo Calle</author>
+		</authors>
+		<summary>Markdown provider for DivWiki</summary>
+  <description>Obtén más espacio y más velocidad con mozCleaner. mozCleaner is una extraordinaria herramienta que busca los ficheros que pueden ser borrados de forma segura en aplicaciones de Mozilla.
+CacheHealth reportMinidumpsCrash reportsChatZilla logsIndexedDB databases (inestable)Bookmarks backupsSearch pluginsThumbnails storagedWeave logsDescargas de ChatZillaExtensiones Cuando mozCleaner encuentra los archivos puedes borrarlos o no, tú tienes el control. Para abrir la ventana de mozCleaner haz lo siguiente:
+Firefox-&amp;gt;Icono en la barra de complementos
+Fennec (inestable)-&amp;gt;Manetener pulsado
+Thunderbird-&amp;gt;Click derecho en un mensaje
+SeaMonkey-&amp;gt;Click derecho en una web
+Instantbird-&amp;gt;Click derecho en una conversación
+BlueGriffon-&amp;gt;Click derecho en el código fuente
+Siéntete libre de usarlo y criticarlo</description><license>
+    <name>Licencia pública GNU, versión 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/460/460017-64.png?modified=1389889351</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/460/460017-32.png?modified=1389889351</icon>
+  <compatible_applications><application>
+      <name>DivWiki</name>
+      <application_id>1</application_id>
+      <min_version>0.1</min_version>
+      <max_version>2.0</max_version>
+      <appID>divwiki@divwiki</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><thumbnail>https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110857.png?modified=1380964459</thumbnail><rating>0</rating>
+  <learnmore>https://addons.mozilla.org/es/firefox/addon/mozcleaner/?src=api</learnmore><install hash=""
+    os="ALL"
+    size="">https://github.com/AdrianArroyoCalle/divwiki/releases/download/0.2/markdown.divwiki-0.2.xpi</install>
+  </addon>
+    </searchresults>
