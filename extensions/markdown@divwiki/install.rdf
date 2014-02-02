@@ -25,7 +25,7 @@
     <em:homepageURL>http://github.com/AdrianArroyoCalle/divwiki</em:homepageURL>
 	<em:updateURL>https://raw2.github.com/AdrianArroyoCalle/divwiki/master/extensions/markdown@divwiki/install.rdf</em:updateURL>
 	<em:aboutURL>chrome://markdown/content/about.xul</em:aboutURL>
-	<!-- <em:optionsURL></em:optionsURL> -->
+	<em:optionsURL>chrome://markdown/content/options.xul</em:optionsURL>
 	<em:optionsType>2</em:optionsType>
 	<em:iconURL>chrome://markdown/content/48x30-solid.png</em:iconURL>
 	<em:icon64URL>chrome://markdown/content/66x40-solid.png</em:icon64URL>

@@ -28,4 +28,12 @@ window.addEventListener("load",function(){
 		var origin=document.getElementById("home-label").getAttribute("label");
 		document.getElementById("wiki").setAttribute("src",origin);
 	});
+	var settings=document.getElementById("menu-settings");
+	settings.addEventListener("command",function(){
+		window.openDialog("chrome://divwiki/content/options.xul","Settings","chrome, width=600, height=300");
+	});
+	var jsconsole=document.getElementById("menu-jsconsole");
+	jsconsole.addEventListener("command",function(){
+		window.openDialog("chrome://global/content/console.xul","JavaScript console","chrome, width=600, height=400");
+	});
 });

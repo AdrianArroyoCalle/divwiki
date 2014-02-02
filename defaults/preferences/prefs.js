@@ -61,3 +61,6 @@ pref("app.update.nagTimer.restart", 1800);
 pref("app.update.timer", 600000);
 pref("app.update.showInstalledUI", false);
 pref("app.update.incompatible.mode", 0);
+
+pref("browser.preferences.instantApply",false);
+pref("browser.preferences.animateFadeIn",false);

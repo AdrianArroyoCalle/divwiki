@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<setting type="menulist" pref="extensions.markdown.engine" title="Engine for Markdown" desc="Select the engine used by Markdown">
+		<menulist>
+			<menupopup>
+				<menuitem value="showdown" label="Showdown"/>
+			</menupopup>
+		</menulist>
+	</setting>
+</vbox>

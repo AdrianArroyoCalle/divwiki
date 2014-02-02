@@ -11,6 +11,8 @@
 					<menuitem label="&StartExploring;" class="start" id="menu-startexploring"/>
 					<menuitem label="&PackAWiki;" id="menu-packawiki"/>
 					<menuseparator/>
+					<menuitem label="JavaScript Console" id="menu-jsconsole"/>
+					<menuseparator/>
 					<menuitem label="Exit" id="exit"/>
 				</menupopup>
 			</menu>
@@ -21,6 +23,7 @@
 			</menu>
 			<menu label="Configuration">
 				<menupopup id="configuration">
+					<menuitem label="Simple configuration" id="menu-settings"/> 
 					<menuitem label="Extension manager" id="menu-extension"/>
 					<menuitem label="Advanced configuration" id="menu-configuration"/>
 				</menupopup>
@@ -51,8 +54,8 @@
 			<label id="home-label" label=""/>
 		</hbox>
 		<separator/>
-		<hbox id="wiki-navigator">
-			<browser type="chrome" src="chrome://divwiki/content/html/start.html" flex="1" width="500" height="300" id="wiki"/>
+		<hbox id="wiki-navigator" align="center">
+			<browser type="chrome" src="chrome://divwiki/content/html/start.html" flex="1" width="500" height="400" id="wiki"/>
 		</hbox>
 	</vbox>
 </window>
