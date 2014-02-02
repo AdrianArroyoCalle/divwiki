@@ -10,6 +10,22 @@ window.addEventListener("load",function(){
 	});
 	var menuextension=document.getElementById("menu-extension");
 	menuextension.addEventListener("command",function(){
-		window.open("chrome://mozapps/content/extensions/extensions.xul","Extension manager","chrome, width=600, height=300");
+		window.open("chrome://mozapps/content/extensions/extensions.xul","Extension manager","chrome, width=800, height=600");
+	});
+	var about=document.getElementById("menu-about");
+	about.addEventListener("command",function(){
+		window.openDialog("chrome://divwiki/content/about.xul","About DivWiki","chrome, width=600, height=300");
+	});
+	var start=document.getElementsByClassName("start");
+	for(var i=0;i<start.length;i++)
+	{
+		start[i].addEventListener("command",function(){
+			window.openDialog("chrome://divwiki/content/wizard.xul","Wizard","chrome, width=600, height=400");
+		});
+	}
+	var home=document.getElementById("home");
+	home.addEventListener("command",function(){
+		var origin=document.getElementById("home-label").getAttribute("label");
+		document.getElementById("wiki").setAttribute("src",origin);
 	});
 });

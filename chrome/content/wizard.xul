@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<wizard id="start-wizard" windowtype="start-wizard" title="Start wizard" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" onwizardfinish="return wikiProvider();">
+<script src="chrome://divwiki/content/wizard.js"></script>
+	<wizardpage pageadvanced="return wikiProvider();">
+		<description>
+			This wizard help you to explore a new wiki. To get more wiki providers install extensions.
+		</description>
+		<label value="Please, select the wiki provider"/>
+		<listbox id="wiki-providers">
+			<listitem label="Default HTML page" value="default-html"/>
+		</listbox>
+	</wizardpage>
+</wizard>

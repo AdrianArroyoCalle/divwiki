@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE window SYSTEM "chrome://divwiki/locale/main.dtd">
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<window windowtype="divwiki" orient="vertical" id="main" title="DivWiki" width="800" height="600" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<window windowtype="divwiki:wiki" orient="vertical" id="main" title="DivWiki" width="800" height="600" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
 	<script src="chrome://divwiki/content/app.js"></script>
 	<script src="chrome://divwiki/content/main.js"></script>
-	<toolbox flex="1">
+	<toolbox>
 		<menubar id="menubar">
 			<menu label="File">
 				<menupopup id="file-popup">
-					<menuitem label="&StartExploring;" id="menu-startexploring"/>
+					<menuitem label="&StartExploring;" class="start" id="menu-startexploring"/>
 					<menuitem label="&PackAWiki;" id="menu-packawiki"/>
 					<menuseparator/>
 					<menuitem label="Exit" id="exit"/>
@@ -27,26 +27,28 @@
 			</menu>
 			<menu label="Help">
 				<menupopup id="help-popup">
+					<menuitem label="About" id="menu-about"/>
 					<menuseparator/>
-					<menuitem label="About"/>
 				</menupopup>
 			</menu>
 		</menubar>
 	</toolbox>
 	<popupset>
 		<menupopup id="popup">
+			<menuitem label="Install extensions"/>
 			<menuitem label="Install themes"/>
 		</menupopup>
 	</popupset>
 	<vbox id="main-box" context="popup">
-		<image src="chrome://branding/content/icon64.png" width="64" height="64"/>
+		<!-- <image src="chrome://branding/content/icon64.png" width="64" height="64"/> -->
 		<hbox id="start-box" style="text-align: center;">
-			<button label="&StartExploring;" accesskey="s"/>
+			<button label="&StartExploring;" class="start" accesskey="s"/>
 			<button label="&PackAWiki;" accessky="p"/>
 		</hbox>
 		<separator/>
 		<hbox id="nav-box">
-			<button>Home</button>
+			<button id="home">Home</button>
+			<label id="home-label" label=""/>
 		</hbox>
 		<separator/>
 		<hbox id="wiki-navigator">

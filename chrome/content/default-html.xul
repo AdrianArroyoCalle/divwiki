@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<wizard id="wizard-html" title="HTML wizard" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" onwizardfinish="return html();">
+<script src="chrome://divwiki/content/html.js"></script>
+	<wizardpage>
+		<description>
+			This wizard helps you to explore a HTML wiki from a URL
+		</description>
+		<label value="Click Next to continue"/>
+	</wizardpage>
+	<wizardpage>
+		<label value="Put the URL of the Home page of the HTML wizard" control="url"/>
+		<textbox id="url"/>
+	</wizardpage>
+	<!-- <wizardpage>
+		<progressmeter value="0"/>
+		<label value="" id="status"/>
+	</wizardpage> -->
+	<wizardpage>
+		<label value="Click Finish to explore the wiki"/>
+	</wizardpage>
+</wizard>
