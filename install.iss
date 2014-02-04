@@ -29,9 +29,10 @@ Name: desktopicon; Description: {cm:CreateDesktopIcon}; GroupDescription: {cm:Ad
 Name: quicklaunchicon; Description: {cm:CreateQuickLaunchIcon}; GroupDescription: {cm:AdditionalIcons}; Flags: unchecked
 
 [Files]
-Source: C:\Divel\Divel Game Center\xulrunner\xulrunner-stub.exe; DestDir: {app}/DivWiki.exe; Components: main; Flags: ignoreversion
+Source: C:\Divel\Divel Game Center\DivWiki.exe; DestDir: {app}; Components: main; Flags: ignoreversion
 Source: C:\Users\arroyo\Documents\GitHub\divwiki\chrome.manifest; DestDir: {app}; Components: main; Flags: ignoreversion
 Source: C:\Users\arroyo\Documents\GitHub\divwiki\application.ini; DestDir: {app}; Components: main; Flags: ignoreversion
+Source: C:\Users\arroyo\Documents\GitHub\divwiki\extensions\*; Excludes: .svn; DestDir: {app}\extensions; Components: main; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: C:\Users\arroyo\Documents\GitHub\divwiki\chrome\*; Excludes: .svn; DestDir: {app}\chrome; Components: main; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: C:\Users\arroyo\Documents\GitHub\divwiki\defaults\*; Excludes: .svn; DestDir: {app}\defaults; Components: main; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: C:\Divel\Divel Game Center\xulrunner\*; DestDir: {app}\xulrunner; Components: runtime; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -39,7 +40,7 @@ Source: C:\Divel\Divel Game Center\xulrunner\*; DestDir: {app}\xulrunner; Compon
 
 [Icons]
 Name: {group}\DivWiki; Filename: {app}\DivWiki.exe
-Name: {group}\{cm:UninstallProgram,XUL Explorer}; Filename: {uninstallexe}
+Name: {group}\{cm:UninstallProgram,DivWiki}; Filename: {uninstallexe}
 Name: {userdesktop}\DivWiki; Filename: {app}\DivWiki.exe; Tasks: desktopicon
 Name: {userappdata}\Microsoft\Internet Explorer\Quick Launch\DivWiki; Filename: {app}\DivWiki.exe; Tasks: quicklaunchicon
 
