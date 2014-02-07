@@ -18,7 +18,7 @@ pref("extensions.dss.enabled", false);
 pref("extensions.dss.switchPending", false);
 pref("extensions.ignoreMTimeChanges", false);
 pref("extensions.logging.enabled", false);
-pref("general.skins.selectedSkin", "WikiTheme/0.1");
+pref("general.skins.selectedSkin", "classic/1.0"); //WikiTheme/0.1 for WikiTheme
 pref("extensions.update.url", "chrome://mozapps/locale/extensions/extensions.properties");
 pref("extensions.getMoreExtensionsURL", "chrome://mozapps/locale/extensions/extensions.properties");
 pref("extensions.getMoreThemesURL", "chrome://mozapps/locale/extensions/extensions.properties");
