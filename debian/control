@@ -1,7 +1,7 @@
 Source: divwiki
 Section: web
 Priority: optional
-Mantainer: Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+Maintainer: Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.4
 Homepage: http://github.com/AdrianArroyoCalle/divwiki
@@ -11,6 +11,5 @@ Vcs-Browser: http://github.com/AdrianArroyoCalle/divwiki
 Package: divwiki
 Architecture: all
 Depends: firefox (>=24) | iceweasel (>= 24) 
-Suggests: azpazeta divwork
 Description: A wiki viewer
  DivWiki is a wiki viewer created using XUL Runner

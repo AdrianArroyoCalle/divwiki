@@ -1,17 +1,19 @@
 #!/usr/bin/make -f
 export DH_VERBOSE=1
-
+%:
+	dh $@
 override_dh_auto_configure:
 	echo "Configured..."
 override_dh_auto_build:
 	echo "Builded..."
 override_dh_auto_install:
-	mkdir -p $(CURDIR)/debian/azpazeta/usr/share/divwiki/
-	cp application.ini $(CURDIR)/debian/azpazeta/usr/share/divwiki/
-	cp chrome.manifest $(CURDIR)/debian/azpazeta/usr/share/divwiki
-	cp -rf chrome $(CURDIR)/debian/azpazeta/usr/share/divwiki
-	cp -rf defaults $(CURDIR)/debian/azpazeta/usr/share/divwiki
-	cp -rf extensions $(CURDIR)/debian/azpazeta/usr/share/divwiki
-	cp debian/divwiki.desktop $(CURDIR)/debian/azpazeta/usr/share/divwiki
-%:
-	dh $@
+	mkdir -p $(CURDIR)/debian/tmp/usr/share/divwiki
+	mkdir -p $(CURDIR)/debian/tmp/usr/share/applications
+	cp application.ini $(CURDIR)/debian/tmp/usr/share/divwiki
+	cp chrome.manifest $(CURDIR)/debian/tmp/usr/share/divwiki
+	cp -rf chrome $(CURDIR)/debian/tmp/usr/share/divwiki/
+	cp -rf defaults $(CURDIR)/debian/tmp/usr/share/divwiki/
+	cp -rf extensions $(CURDIR)/debian/tmp/usr/share/divwiki/
+	cp debian/divwiki.desktop $(CURDIR)/debian/tmp/usr/share/applications
+	dh_install
+
