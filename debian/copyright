@@ -1,0 +1,7 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: divwiki
+Mantainer: Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+Source: http://github.com/AdrianArroyoCalle/divwiki
+
+Copyright: 2014 Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+License: GPL-2

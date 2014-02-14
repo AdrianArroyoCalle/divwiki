@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=DivWiki
+Comment=DivWiki is a wiki viewer created using XUL Runner
+Exec=firefox -app /usr/share/divwiki/application.ini
+Icon=firefox
+Categories=Network;WebBrowser
+Terminal=false
